@@ -46,10 +46,10 @@ while True:
     elif player == 'tijera' and pc_option == 'tijera':
         print('ES UN EMPATE, JUEGUEN DE NUEVO')
 
-    if win_jugador == 3:
+    if win_jugador == 2:
         print('\t<<<<EL CAMPEON ES EL JUGADOR>>>>')
         break
-    elif win_pc == 3:
+    elif win_pc == 2:
         print('\t<<<<EL CAMPEON ES EL COMPUTADOR>>>>')
         break
     ronda+=1
